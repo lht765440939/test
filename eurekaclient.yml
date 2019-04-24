@@ -1,7 +1,5 @@
 server:
   port: 8766
-  tomcat：
-    max-http-post-size：50000000
 spring:
   application:
     name: eurekaclient
