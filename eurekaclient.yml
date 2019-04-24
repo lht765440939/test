@@ -1,0 +1,17 @@
+server:
+  port: 8768
+spring:
+  application:
+    name: eurekaclient
+  rabbitmq:
+        host: 192.168.126.129
+        port: 5672
+        username: root
+        password: root
+        virtualHost: /
+        publisherConfirms: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,bus-refresh
